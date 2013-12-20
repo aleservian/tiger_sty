@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<!--[if IE 7 ]> <html class="ie7"><![endif]-->
+<!--[if IE 8 ]> <html class="ie8"><![endif]-->
+<!--[if IE 9 ]> <html class="ie9"><![endif]-->
+<html lang="pt-br">
+<head>
+	<title>Tiger Sty</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lt IE 9]><script type="text/javascript" src="js/conv.js"></script><![endif]-->
+	<!--[if (gte IE 6)&(lte IE 8)]>
+	    <script type="text/javascript" src="js/selectivizr.js"></script>
+	    <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+	<![endif]-->
+	<link rel="stylesheet" href="css/sty.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	<header class="main_header">
+		<section class="cn">
+			<div class="logo"></div>
+		</section>
+	</header>
+	<section class="main_container">
+		<section class="cn">
+			<h1>Grid</h1>
+			<div class="row">
+				<div class="col1"><div class="box notmargin">20%</div></div>
+				<div class="col1"><div class="box">20%</div></div>
+				<div class="col1"><div class="box">20%</div></div>
+				<div class="col1"><div class="box">20%</div></div>
+				<div class="col1"><div class="box">20%</div></div>
+			</div>
+			<div class="row">
+				<div class="col2"><div class="box notmargin">25%</div></div>
+				<div class="col2"><div class="box">25%</div></div>
+				<div class="col2"><div class="box">25%</div></div>
+				<div class="col2"><div class="box">25%</div></div>
+			</div>
+			<div class="row">
+				<div class="col3"><div class="box notmargin">33.333%</div></div>
+				<div class="col3"><div class="box">33.333%</div></div>
+				<div class="col3"><div class="box">33.333%</div></div>
+			</div>
+			<div class="row">
+				<div class="col1"><div class="box notmargin">20%</div></div>
+				<div class="col9"><div class="box">80%</div></div>
+			</div>
+			<div class="row">
+				<div class="col1"><div class="box notmargin">20%</div></div>
+				<div class="col6"><div class="box">60%</div></div>
+				<div class="col1"><div class="box">20%</div></div>
+			</div>
+			<div class="row">
+				<div class="col2"><div class="box notmargin">25%</div></div>
+				<div class="col8"><div class="box">75%</div></div>
+			</div>
+			<div class="row">
+				<div class="col3"><div class="box notmargin">33.333%</div></div>
+				<div class="col7"><div class="box">66.67%</div></div>
+			</div>
+			<div class="row">
+				<div class="col4"><div class="box notmargin">40%</div></div>
+				<div class="col6"><div class="box">60%</div></div>
+			</div>
+			<div class="row">
+				<div class="col5"><div class="box notmargin">50%</div></div>
+				<div class="col5"><div class="box">50%</div></div>
+			</div>
+			<div class="row">
+				<div class="col10"><div class="box notmargin">100%</div></div>
+			</div>
+			<h2>Tabela</h2>
+			<table class="main_table">
+				<thead class="table_head">
+					<tr>
+						<th>Mês</th>
+						<th>Aluguel</th>
+						<th>Multa/Juros/CM</th>
+						<th>Outros</th>
+					</tr>
+				</thead>
+				<tbody class="table_body">
+					<tr>
+						<td>01/2012</td>
+						<td>3.907,00</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Total</td>
+						<td>48.099,00</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+				<tfoot class="table_foot">
+					<tr>
+						<td>Total geral</td>
+						<td>48.099,00</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tfoot>
+			</table>
+			<h2>Formulario</h2>
+			<form class="main_form">
+				<fieldset>
+					<legend>Cadastro:</legend>
+					<div class="row">
+						<div class="col10">
+							<label>Nome:</label>
+							<input type="text" name="txt_nome" placeholder="Nome:">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col10">
+							<label>Descrição:</label>
+							<textarea name="txt_descricao" placeholder="Descrição:"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col5"><input type="radio" name="sexo" value="masculino"><label>Masculino</label></div>
+						<div class="col5"><input type="radio" name="sexo" value="feminino"><label>Feminino</label></div>
+					</div>
+					<div class="row">
+						<div class="col5"><input type="checkbox" name="estudando" value="estudando"><label>Estudando</label></div>
+						<div class="col5"><input type="checkbox" name="esporte" value="esporte"><label>Esporte</label></div>
+					</div>
+					<div class="row">
+						<div class="col10">
+							<label>Estado:</label>
+							<select name="estado">
+								<option>Goias</option>
+								<option>São Paulo</option>
+								<option>Rio de Janeiro</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col10">
+							<label>Cidade:</label>
+							<select multiple="multiple">
+								<option>Goiânia</option>
+								<option>São Paulo</option>
+								<option>Rio de Janeiro</option>
+								<option>Goiânia</option>
+								<option>São Paulo</option>
+							</select>
+						</div>
+					</div>
+					<button type="button" class="btn">Enviar</button>
+				</fieldset>
+			</form>
+		</section>
+	</section>
+	<footer class="main_footer">
+		<section class="cn">
+			
+		</section>
+	</footer>
+   <div class="img" data-src-img='img/alexandre.png'></div>
+</body>
+</html>
